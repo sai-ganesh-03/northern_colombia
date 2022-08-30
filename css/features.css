@@ -1,0 +1,68 @@
+@font-face {
+    font-family: DreamAvenue;
+    src:url("../fonts/Dream-Avenue.ttf");
+  }
+/* .sections div.slide-background-content{
+    filter: blur(3px);
+} */
+/* #########################################
+----------------NAVBAR---------------- */
+
+.nav{
+    width: 100vw;
+    z-index: 4;
+    backdrop-filter: blur(3px);
+    background: rgba(0, 0, 0, 0.5);
+  }
+.nav .contactUsBtn span{
+    font-family: DreamAvenue, sans-serif;
+    font-size: 1em;
+}
+
+.contactUsBtn img{
+    width: 2em;
+    margin: 0;
+}
+/* Back button*/
+#backBtn{
+    display: grid;
+    place-items: center;
+    padding: 0 !important;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    padding-right: .5em;
+    width: 50px;
+    height: 50px;
+    
+}
+
+   
+#backBtn img{
+    margin: 0;
+    padding-right: 5px;
+    
+}
+/* #############################################
+-------------Sections---------------------- */
+.sections{
+    backdrop-filter: blur(3px);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.sections p{
+    padding: 1em;
+}
+
+
+
+
+
+.controls-arrow{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    transform: scale(1.5);
+}
+

@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiriti ventures</title>
+    <link rel="stylesheet" href="./css/northern_colombia.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                gold: '#C4A165',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+
+
+    
+    <!-- ############################################################################################
+                                Contact Modal
+    ############################################################################################ -->
+    <div class="contactModalDiv shadow-sm">
+        <div class="my-auto contactModal bg-neutral-900" >
+            <img src="https://img.icons8.com/ios-glyphs/30/c4a165/multiply.png"/>
+            <form method="post" action="https://submit-form.com/gQnyNd8o" class="w-full border-5 border-gold max-w-2xl px-6 py-4 mx-auto">
+                <h2 class="text-3xl font-semibold text-center text-gold">Get in touch</h2>
+            
+                <div class="mt-6 ">
+                    <div class="items-center -mx-2 md:flex">
+                        <div class="w-full mx-2">
+                            <label class="block mb-2 text-sm font-medium text-gold">Name</label>
+            
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="name">
+                        </div>
+            
+                        <div class="w-full mx-2 mt-4 md:mt-0">
+                            <label class="block mb-2 text-sm font-medium text-gold">Phone Number</label>
+                            
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="phone">
+                        </div>
+                    </div>
+            
+                    <div class="items-center -mx-2 md:flex mt-4">
+                        <div class="w-full mx-2">
+                            <label class="block mb-2 text-sm font-medium text-gold">E-mail</label>
+                    
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="email">
+                        </div>
+                    
+                        <div class="w-full mx-2 mt-4 md:mt-0">
+                            <label class="block mb-2 text-sm font-medium text-gold">Address</label>
+                    
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="address">
+                        </div>
+                    </div>
+            
+                
+                    <div class="w-full mt-4">
+                        <label class="block mb-2 text-sm font-medium text-gold">Message</label>
+            
+                        <textarea
+                            class="block w-full h-40 px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40" name="message"></textarea>
+                    </div>
+            
+                    <div class="flex justify-center mt-6">
+                        <button
+                            class="px-4 py-2 text-neutral-900 font-bold transition-colors duration-200 transform bg-gold rounded-md hover:bg-gold hover:text-white focus:outline-none focus:bg-stone-600">Send
+                            Message</button>
+                    </div>
+                </div>
+            </form>
+            </div>       
+    </div>
+    <!-- ############################################################################################ -->
+                        <!-- Contact modal ends -->
+         <!-- ############################################################################################                -->
+
+         <!-- ############################################################################################
+    ----------------------------------- NAVBAR SECTION -----------------------------------------------
+    ############################################################################################ -->
+    <!-- Mobile menu dropdown  -->
+    <div class="fixed mobileDropDown top-0" style="left:100%" >
+        <div class="p-5 h-full shadow-sm">
+          <div class="flex items-center justify-center mb-4">
+            
+            <div>
+              <button aria-label="Close Menu" title="Close Menu" class="mobileDropDownCross p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-stone-200 focus:bg-stone-200 focus:outline-none focus:shadow-outline">
+                <svg class="w-5 text-gold" viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <nav class="flex items-center h-4/6 justify-center">
+            <ul class="space-y-4 flex flex-col items-center justify-around h-1/2">
+                <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gold transition-colors duration-200 hover:text-white">Product</a></li>
+                <li><a href="./index.html" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gold transition-colors duration-200 hover:text-white">Landing Site</a></li>
+              <li><a href="./features.html" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gold transition-colors duration-200 hover:text-white">Features</a></li>
+              <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-gold transition-colors duration-200 hover:text-white">Pricing</a></li>
+              <li><a href="./aboutUs.html" aria-label="About us" title="About us" class="font-medium tracking-wide text-gold transition-colors duration-200 hover:text-white">About us</a></li>
+              <li><a href="/" aria-label="Sign in" title="Sign in" class="font-medium tracking-wide text-gold transition-colors duration-200 hover:text-white">Sign in</a></li>
+            
+            </ul>
+          </nav>
+        </div>
+      </div>
+     <!-- ---------------------------------Mobile drop down ends---------------------------------- -->
+    <div class="  nav fixed top-0 drop-shadow-xl">
+        <div class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+            
+            <div class="relative flex items-center justify-start ">
+                
+                <img class=" w-18 h-20 -my-2 tracking-wide" src="./imgs/logo.png" alt="" >
+
+                <a href="#" aria-label="Company" title="Company" class="inline-flex mx-auto items-center contactUsBtn">
+                    <svg class="w-8 text-gold" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2"
+                        stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+                        <rect x="3" y="1" width="7" height="12"></rect>
+                        <rect x="3" y="17" width="7" height="6"></rect>
+                        <rect x="14" y="1" width="7" height="6"></rect>
+                        <rect x="14" y="11" width="7" height="12"></rect>
+                    </svg>
+                    
+                    <span class="ml-2 font-bold tracking-wide text-gold uppercase" >Contact Us</span>
+                </a>
+                 <!-- Mobile menu -->
+                 <div >
+                        <button aria-label="Open Menu" title="Open Menu"
+                            class="p-2 -mr-1 transition mobileHamburger duration-200 rounded focus:outline-none focus:shadow-outline">
+                            <svg class="w-5 text-gold" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"></path>
+                                <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"></path>
+                            </svg>
+                        </button>
+                        
+                    </div>
+                    <!-- ---------------------Mobile menu ends---------------------------------- -->
+                    
+                                
+            </div>
+        </div>
+    </div>
+
+    <!-- ############################################################################################
+    ----------------------------------- HERO SECTION -----------------------------------------------
+    ############################################################################################# -->
+
+    <div class="herobg relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+        <!-- <div
+            class=" inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+            <svg class="slice absolute left-0 hidden h-full text-stone-900 transform -translate-x-1/2 lg:block" viewBox="0 0 100 100"
+                fill="black" preserveAspectRatio="none slice">
+                <path d="M50 0H100L50 100H0L50 0Z"></path>
+            </svg>
+            
+        </div> -->
+        <div class="relative bg-transparent flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+            
+            <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+                <!-- <img class="mt-4" src="" alt="" > -->
+                <div class="h-50">
+                </div>
+                <h2 class=" mt-12 companyname mb-9 text-5xl header-font" style="color: #f2bd36"> Northern Colombia</h2>
+                <p
+                    class="inline-block px-3 pb-1 py-px mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full" style="background-color:#f2bd36">
+                    Brand new
+                </p>
+                <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gold sm:text-4xl sm:leading-none" >
+                    Make your dream home at an international address. <br class="hidden md:block" /> 
+                </h2>
+                </p>
+                <h3 style="font-size: 1.5em;" class="mb-5 font-sans text-xl font-bold tracking-tight text-gold sm:text-4xl sm:leading-none" >
+                    Premium plots in Bangalore’s most prime location.  <br class="hidden md:block" /> 
+                </h3>
+                <p class="pr-5 mb-5 text-base text-white opacity-90 md:text-lg">
+                    At Kirthi Ventures we build relationships first. Landmarks follow! Its where state-of-the-art architecture and elegant spaces meet. Find what you are looking for and more with us.
+                </p>
+                <div class="flex items-center">
+                    <a href="/"
+                        class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-neutral-900 font-bold transition duration-200 rounded shadow-md  hover:bg-gold hover:text-white focus:shadow-outline focus:outline-none" style="background-color:#f2bd36">
+                        Get started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ############################################################################################
+        ----------------------------------- COUNTER SECTION -----------------------------------------------
+        ############################################################################################# -->
+
+        <div class="bg-neutral-900">
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-gold">
+        <div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
+            <div class="text-center md:border-r">
+                <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">144K</h6>
+                <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+                    Downloads
+                </p>
+            </div>
+            <div class="text-center md:border-r">
+                <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">12.9K</h6>
+                <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+                    Subscribers
+                </p>
+            </div>
+            <div class="text-center md:border-r">
+                <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">48.3K</h6>
+                <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+                    Users
+                </p>
+            </div>
+            <div class="text-center">
+                <h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">24.5K</h6>
+                <p class="text-sm font-medium tracking-widest text-white uppercase lg:text-base">
+                    Cookies
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ############################################################################################
+            ----------------------------------- CONTENT SECTION -----------------------------------------------
+            ############################################################################################# -->
+
+
+<div class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col bg-neutral-900">
+    <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
+        <div class="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
+            <h2 class=" mt-12 companyname mb-9 text-center text-5xl header-font" style="color: #f2bd36"> Kiriti Ventures</h2>
+            <h2 style="font-size: 1.75em;"
+                class="mb-5 font-sans text-3xl font-bold tracking-tight text-gold sm:text-4xl sm:leading-none md:text-center">
+                Building dreams, Establishing landmarks, 
+                Creating today, Imagining tomorrow.
+            </h2>
+            <p class="mb-5 text-base text-white md:text-lg md:text-center">
+                Founded by Mr. Ganta Nara Hari, Kiriti Ventures is here to redefine urban living in the country, with projects to the tune of $1bn in the pipeline. Following the highly successful development project Archana Mines Pvt. Ltd., Mr. Hari’s transformative motto of “‘She Build’ Culture” for Kiriti Ventures is empowering women with senior roles in the otherwise under-represented real estate industry. He believes that makes all the difference in building the future.
+            </p>
+            <div class="mb-10 text-center md:mb-16 lg:mb-20">
+                <a href="/"
+                    class="inline-flex items-center justify-center w-full h-12 px-6 tracking-wide font-semibold transition duration-200 rounded shadow-md md:w-auto text-neutral-900 bg-gold hover:bg-gold focus:shadow-outline focus:outline-none">
+                    Learn more
+                </a>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="mb-2 text-sm text-gold md:mb-2">Follow us</div>
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center">
+                        <a href="/"
+                            class="text-gold transition-colors duration-300 hover:text-white">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                                <path
+                                    d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="/"
+                            class="text-gold transition-colors duration-300 hover:text-white">
+                            <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
+                                <circle cx="15" cy="15" r="4"></circle>
+                                <path
+                                    d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="/"
+                            class="text-gold transition-colors duration-300 hover:text-white">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                                <path
+                                    d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="/"
+                            class="text-gold transition-colors duration-300 hover:text-white">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="h-6">
+                                <path
+                                    d="M23.8,7.2c0,0-0.2-1.7-1-2.4c-0.9-1-1.9-1-2.4-1C17,3.6,12,3.6,12,3.6h0c0,0-5,0-8.4,0.2 c-0.5,0.1-1.5,0.1-2.4,1c-0.7,0.7-1,2.4-1,2.4S0,9.1,0,11.1v1.8c0,1.9,0.2,3.9,0.2,3.9s0.2,1.7,1,2.4c0.9,1,2.1,0.9,2.6,1 c1.9,0.2,8.2,0.2,8.2,0.2s5,0,8.4-0.3c0.5-0.1,1.5-0.1,2.4-1c0.7-0.7,1-2.4,1-2.4s0.2-1.9,0.2-3.9v-1.8C24,9.1,23.8,7.2,23.8,7.2z M9.5,15.1l0-6.7l6.5,3.4L9.5,15.1z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        class="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+        <img class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+            src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="" />
+    </div>
+</div>
+
+
+<!-- ############################################################################################
+        ----------------------------------- FEATURES SECTION -----------------------------------------------
+        ############################################################################################# -->
+
+        
+    <div class="cardsDiv">
+        <div id="innerCardsDiv">
+            <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                <div>
+                    <div class="relative flex py-5 items-center">
+                        <div class="flex-grow border-t border-stone-300"></div>
+                        <span class="flex-shrink mx-4 font-semibold uppercase tracking-wider text-gold">Features</span>
+                        <div class="flex-grow border-t border-stone-300"></div>
+                    </div>
+                </div>
+                <h2
+                    class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight mt-16 text-gold sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                        <svg viewBox="0 0 52 24" fill="currentColor"
+                            class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-stone-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                            <defs>
+                                <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
+                                    <circle cx="1" cy="1" r=".7"></circle>
+                                </pattern>
+                            </defs>
+                            <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
+                        </svg>
+                        <span class="relative">Enjoy</span>
+                    </span>
+                    the luxury
+                </h2>
+                
+                <p class="text-base text-white md:text-lg">
+                    We at Kiriti Ventures provide you with world class experience.
+                </p>
+            </div>
+    <!-- ------------------Cards grid start----------------- -->
+    <div class="grid gap-10 row-gap-5 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 sm:grid-cols-2 lg:grid-cols-3" >
+        
+        <div class="flex card flex-col justify-end border border-gold rounded shadow-sm" bgImg="clubhouse.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Star-studded Clubhouse</h6>
+                <p class="mb-2 text-sm text-white">
+                    The jewel of the Northern Colombia crown, the grandly mounted Clubhouse, is luxuriously equipped with features and amenities that evoke international living. It is a landmark within the landmark itself.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        <div class="flex card flex-col justify-end border border-gold rounded shadow-sm" bgImg="gym.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Kriti Tone Gym</h6>
+                <p class="mb-2 text-sm text-white">
+                    The Kiriti Tone duplex gym makes 
+                    fitness easy. Choose how you stay 
+                    active with a wide range of state of-the-art equipment, including 
+                    Peloton, dynamic strength training 
+                    zone, yoga center, and pilates 
+                    studio.
+
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="lap_pool.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">75 Skybridge 
+                    lap pool</h6>
+                <p class="mb-2 text-sm text-white">
+                    Spanning the entire length 
+                    of the Skybridge, 75-foot lap pool is 
+                    always ready, kept between 80-85 
+                    degrees year round.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="sky_bridge.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Skybridge 
+                    lounge
+                    </h6>
+                <p class="mb-2 text-sm text-white">
+                    Your at home boardroom with 
+                    conference rooms, workstations, 
+                    coffee bar, and high-speed Wi-Fi 
+                    with East River and city views
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="roof_top_pool.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">AYRE 
+                    Rooftop 
+                    Pool</h6>
+                <p class="mb-2 text-sm text-white">
+                    The AYRE rooftop pool is the best 
+                    way to cool off during NYC’s hot 
+                    summers. Panoramic views from 
+                    470 feet up will make you feel as if 
+                    you’re floating above the city. 
+                    Catch some rays in plush lounge 
+                    chairs or cabanas, complete with 
+                    towel service and shower
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="climbing_wall.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Climbing 
+                    Wall</h6>
+                <p class="mb-2 text-sm text-white">
+                    Take your fitness to new heights. 
+                    Practice rock climbing on our fully 
+                    equipped 25-foot climbing wall.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="juice_press.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Juice 
+                    Press
+                    </h6>
+                <p class="mb-2 text-sm text-white">
+                    Reenergize your body with Juice 
+                    Press-operated juice and health 
+                    bar located near Copper Tone 
+                    Gym.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="yoga_studio.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Yoga 
+                    Studio</h6>
+                <p class="mb-2 text-sm text-white">
+                    The spacious yoga studio is the 
+                    perfect place to strengthen your 
+                    body and mind, and help you find 
+                    the right balance in your day.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="kids_playroom.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Kids Playroom</h6>
+                <p class="mb-2 text-sm text-white">
+                    The Playroom has toys, books, and 
+                    a miniature bathroom to keep 
+                    your kids safe and happy.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="spa.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Spa</h6>
+                <p class="mb-2 text-sm text-white">
+                    Deep relaxation right at 
+                    home—book custom massages, 
+                    spa treatments, acupuncture, 
+                    cupping and more with ELITE 
+                    concierge.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="hammam.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Hammam</h6>
+                <p class="mb-2 text-sm text-white">
+                    Visit the hammam’s beautiful 
+                    marble steam room and cold 
+                    plunge pool to eliminate stress and 
+                    rejuvenate your body and mind.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="pilates_studio.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Pilates Studio</h6>
+                <p class="mb-2 text-sm text-white">
+                    Experience studio-quality Pilates 
+                    at home with Balanced Body 
+                    Pilates machines to help you 
+                    increase mobility, strength, and 
+                    balance.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="roof_top_lounge.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">AYRE 
+                    Rooftop 
+                    Lounge
+                    </h6>
+                <p class="mb-2 text-sm text-white">
+                    AYRE Rooftop lounge is designed 
+                    to be your personal oasis atop the 
+                    East River to relax and enjoy the full 
+                    360-degree views of the city.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="hole_in_the_wall.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Hole in the wall</h6>
+                <p class="mb-2 text-sm text-white">
+                    Seasonal ingredients, craft coffee, 
+                    signature cocktails, premium 
+                    wines—available all day for dine in 
+                    or takeaway at the base of the 
+                    East Tower.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="outdoor_plaza.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Outdoor 
+                    plaza
+                    </h6>
+                <p class="mb-2 text-sm text-white">
+                    The Copper’s award-winning 
+                    landscaped outdoor park and 
+                    fountain holds community events, 
+                    parties, and is equipped with 
+                    chairs and tables for a breath of 
+                    fresh air.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="elite_lobby.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Elite 
+                    Concierge</h6>
+                <p class="mb-2 text-sm text-white">
+                    Call or visit the ELITE Concierge 
+                    team day or night to help you take 
+                    full advantage of all the amenities 
+                    and services at The Copper.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="catering_kitchen.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Catering 
+                    Kitchen
+                    </h6>
+                <p class="mb-2 text-sm text-white">
+                    Private Chef’s kitchen and dining 
+                    area can elevate your dinner 
+                    parties. Connect with the 
+                    concierge to plan your next 
+                    private chef event.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="library.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Library</h6>
+                <p class="mb-2 text-sm text-white">
+                    The ground floor Library is a quiet 
+                    oasis for reading, getting work 
+                    done, or taking a quick meeting 
+                    on your way out.
+
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="garage.jpeg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Garage</h6>
+                <p class="mb-2 text-sm text-white">
+                    Use our sheltered porte cochère 
+                    and on-site parking complete with 
+                    valet service to make getting 
+                    around as easy as possible.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="empire_studio.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Empire 
+                    Studio</h6>
+                <p class="mb-2 text-sm text-white">
+                    The Copper’s art gallery and event 
+                    space hosts community events as 
+                    well as your private events. 
+                    Contact the ELITE Concierge team 
+                    to coordinate.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="locker_room.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Locker room</h6>
+                <p class="mb-2 text-sm text-white">
+                    Luxe locker rooms and showers are 
+                    available at the Copper Tone 
+                    Gym to make working out as 
+                    comfortable as possible.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="flex card flex-col justify-end border  border-gold rounded shadow-sm" bgImg="mail_room.jpg">
+            <div>
+                <h6 class="mb-1 font-semibold leading-5 text-gold">Mail room</h6>
+                <p class="mb-2 text-sm text-white">
+                    Our beautifully designed 
+                    mailroom comes equipped with 
+                    extra large mailboxes. The ELITE 
+                    Concierge team can help receive 
+                    packages for you.
+                </p>
+            
+            <a href="/features.html" aria-label=""
+                class="inline-flex items-center font-semibold transition-colors duration-200 text-gold hover:text-white">Learn
+                more</a>
+            </div>
+        </div>
+
+        
+
+    </div>
+</div>
+</div>
+
+
+    <!-- ############################################################################################
+            ----------------------------------- TESTIMONIAL SECTION -----------------------------------------------
+            ############################################################################################# -->
+
+<div class="bg-neutral-900">
+    <div class="px-4 py-4 mb-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    
+        <p class="mb-2  font-semibold tracking-wide text-gold uppercase text-center">
+        TESTIMONIALS
+    </p>
+    <div class="max-w-xl mb-5 md:mx-auto text-center lg:max-w-2xl">
+        <p class="text-base text-white md:text-lg">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque
+            ipsa quae.
+        </p>
+    </div>
+    <div class="mb-10 text-center">
+        <a href="/" aria-label="Author" class="inline-block mb-1">
+            <img alt="avatar"
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                class="object-cover w-20 h-20 rounded-full shadow-sm" />
+        </a>
+        <div>
+            <a href="/" aria-label="Author"
+                class="font-semibold text-gold transition-colors duration-200 hover:text-deep-purple-accent-700">Vasile
+                Melinte</a>
+            <p class="text-sm font-medium leading-4 text-stone-400">Author</p>
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- ############################################################################################
+            ----------------------------------- CLIENTS SECTION -----------------------------------------------
+            ############################################################################################# -->
+            <!-- <div class="bg-neutral-900">
+<div class="px-4 py-4 mt-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <p class="mb-6  font-semibold tracking-wide text-gold uppercase sm:text-center">
+        CLIENTS
+    </p>
+    <div class="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-6">
+        <div class="text-center">
+            <div
+                class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-gold sm:w-12 sm:h-12">
+                <svg class="w-8 h-8 text-white sm:w-10 sm:h-10" stroke="currentColor"
+                    viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+            </div>
+            <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase text-gold">
+                World
+            </h6>
+        </div>
+        <div class="text-center">
+            <div
+                class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-gold sm:w-12 sm:h-12">
+                <svg class="w-8 h-8 text-white sm:w-10 sm:h-10" stroke="currentColor"
+                    viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+            </div>
+            <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase text-gold">
+                Sport
+            </h6>
+        </div>
+        <div class="text-center">
+            <div
+                class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-gold sm:w-12 sm:h-12">
+                <svg class="w-8 h-8 text-white sm:w-10 sm:h-10" stroke="currentColor"
+                    viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+            </div>
+            <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase text-gold">
+                Health
+            </h6>
+        </div>
+        <div class="text-center">
+            <div
+                class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-gold sm:w-12 sm:h-12">
+                <svg class="w-8 h-8 text-white sm:w-10 sm:h-10" stroke="currentColor"
+                    viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+            </div>
+            <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase text-gold">
+                Weather
+            </h6>
+        </div>
+        <div class="text-center">
+            <div
+                class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-gold sm:w-12 sm:h-12">
+                <svg class="w-8 h-8 text-white sm:w-10 sm:h-10" stroke="currentColor"
+                    viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+            </div>
+            <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase text-gold">
+                Time
+            </h6>
+        </div>
+        <div class="text-center">
+            <div
+                class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-gold sm:w-12 sm:h-12">
+                <svg class="w-8 h-8 text-white sm:w-10 sm:h-10" stroke="currentColor"
+                    viewBox="0 0 52 52">
+                    <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                </svg>
+            </div>
+            <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase text-gold">
+                News
+            </h6>
+        </div>
+    </div>
+</div>
+</div> -->
+
+
+
+ <!-- ############################################################################################
+                                Contact Modal
+    ############################################################################################ -->
+    <div class=" shadow-sm">
+        <div class="my-auto bg-neutral-900" >
+            <form method="post" action="https://submit-form.com/gQnyNd8o" class="w-full border-5 border-gold max-w-2xl px-6 py-4 mx-auto">
+                <h2 class="text-3xl font-semibold text-center text-gold">Get in touch</h2>
+            
+                <div class="mt-6 ">
+                    <div class="items-center -mx-2 md:flex">
+                        <div class="w-full mx-2">
+                            <label class="block mb-2 text-sm font-medium text-gold">Name</label>
+            
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="name">
+                        </div>
+            
+                        <div class="w-full mx-2 mt-4 md:mt-0">
+                            <label class="block mb-2 text-sm font-medium text-gold">Phone Number</label>
+                            
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="phone">
+                        </div>
+                    </div>
+            
+                    <div class="items-center -mx-2 md:flex mt-4">
+                        <div class="w-full mx-2">
+                            <label class="block mb-2 text-sm font-medium text-gold">E-mail</label>
+                    
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="email">
+                        </div>
+                    
+                        <div class="w-full mx-2 mt-4 md:mt-0">
+                            <label class="block mb-2 text-sm font-medium text-gold">Address</label>
+                    
+                            <input
+                                class="block w-full px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                                type="text"
+                                name="address">
+                        </div>
+                    </div>
+            
+                
+                    <div class="w-full mt-4">
+                        <label class="block mb-2 text-sm font-medium text-gold">Message</label>
+            
+                        <textarea
+                            class="block w-full h-40 px-4 py-2 border rounded-md bg-stone-800 text-stone-300 border-stone-600 focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40" name="message"></textarea>
+                    </div>
+            
+                    <div class="flex justify-center mt-6">
+                        <button
+                            class="px-4 py-2 text-neutral-900 font-bold transition-colors duration-200 transform bg-gold rounded-md hover:bg-gold hover:text-white focus:outline-none focus:bg-stone-600">Send
+                            Message</button>
+                    </div>
+                </div>
+            </form>
+            </div>       
+    </div>
+    <!-- ############################################################################################ -->
+                        <!-- Contact modal ends -->
+         <!-- ############################################################################################                -->
+
+    
+    <!-- ############################################################################################
+            ----------------------------------- FOOTER SECTION -----------------------------------------------
+            ############################################################################################# -->
+
+
+            <div class="bg-neutral-900">
+<div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="sm:col-span-2">
+            <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
+                <svg class="w-8 text-gold" viewBox="0 0 24 24" stroke-linejoin="round"
+                    stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+                    <rect x="3" y="1" width="7" height="12"></rect>
+                    <rect x="3" y="17" width="7" height="6"></rect>
+                    <rect x="14" y="1" width="7" height="6"></rect>
+                    <rect x="14" y="11" width="7" height="12"></rect>
+                </svg>
+                <span class="ml-2 text-xl font-bold tracking-wide text-gold uppercase">Company</span>
+            </a>
+            <div class="mt-6 lg:max-w-sm">
+                <p class="text-sm text-white">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam.
+                </p>
+                <p class="mt-4 text-sm text-white">
+                    Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+            </div>
+        </div>
+        <div class="space-y-2 text-sm">
+            <p class="text-base font-bold tracking-wide text-gold">Contacts</p>
+            <div class="flex">
+                <p class="mr-1 text-gold">Phone:</p>
+                <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone"
+                    class="transition-colors duration-300 text-white hover:text-white">850-123-5021</a>
+            </div>
+            <div class="flex">
+                <p class="mr-1 text-gold">Email:</p>
+                <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email"
+                    class="transition-colors duration-300 text-white hover:text-white">info@lorem.mail</a>
+            </div>
+            <div class="flex">
+                <p class="mr-1 text-gold">Address:</p>
+                <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" aria-label="Our address"
+                    title="Our address"
+                    class="transition-colors duration-300 text-white hover:text-white">
+                    312 Lovely Street, NY
+                </a>
+            </div>
+        </div>
+        <div>
+            <span class="text-base font-bold tracking-wide text-gold">Social</span>
+            <div class="flex items-center mt-1 space-x-3">
+                <a href="/" class="text-gold transition-colors duration-300 hover:text-emerald-300">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                        <path
+                            d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="/" class="text-gold transition-colors duration-300 hover:text-emerald-300">
+                    <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
+                        <circle cx="15" cy="15" r="4"></circle>
+                        <path
+                            d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="/" class="text-gold transition-colors duration-300 hover:text-emerald-300">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                        <path
+                            d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <p class="mt-4 text-sm text-white">
+                Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken spare ribs salami.
+            </p>
+        </div>
+    </div>
+    <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+        <p class="text-sm text-gold">
+            © Copyright 2020 Lorem Inc. All rights reserved.
+        </p>
+        <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+            <li>
+                <a href="/"
+                    class="text-sm text-gold transition-colors duration-300 hover:text-white">F.A.Q</a>
+            </li>
+            <li>
+                <a href="/"
+                    class="text-sm text-gold transition-colors duration-300 hover:text-white">Privacy
+                    Policy</a>
+            </li>
+            <li>
+                <a href="/"
+                    class="text-sm text-gold transition-colors duration-300 hover:text-white">Terms
+                    &amp; Conditions</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+<script src="./scripts/northern_colombia.js"></script>
+
+
+<style>
+  
+@media screen and (min-width : 800px)
+{
+.header-font
+  {
+    font-size:60px;
+  }
+}
+@media screen and (max-width : 380px)
+{
+ .header-font
+  {
+    font-size:40px;
+  }
+}
+
+</style>
+</body>
+</html>
