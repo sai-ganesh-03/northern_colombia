@@ -7,7 +7,6 @@ const mobileHamburger=document.querySelector('.mobileHamburger');
 const mobileDropDown=document.querySelector('.mobileDropDown');
 const mobileDropDownCross=document.querySelector('.mobileDropDownCross');
 
-
 mobileHamburger.addEventListener('click',()=>{
     mobileDropDown.style="right:0";
 })
@@ -30,7 +29,8 @@ function enableScrolling(){
     window.onscroll=function(){};
 }
 
-const contactUsBtn=document.getElementsByClassName('contactUsBtn')[0];
+const contactUsBtn1=document.getElementsByClassName('contactUsBtn')[0];
+const contactUsBtn2=document.getElementsByClassName('contactUsBtn')[1];
 const contactModalDiv=document.getElementsByClassName('contactModalDiv')[0]
 const contactModalCross=document.querySelector(".contactModal img");
 const contactModal=document.querySelector('.contactModal');
@@ -49,7 +49,12 @@ window.onclick = function(event) {
  }
 
 // ---------Opening modal-------------
-contactUsBtn.addEventListener('click',()=>{
+contactUsBtn1.addEventListener('click',()=>{
+    contactModalDiv.style="opacity: 1;visibility: visible;";
+    contactModal.style="top:0px";
+    disableScrolling();
+});
+contactUsBtn2.addEventListener('click',()=>{
     contactModalDiv.style="opacity: 1;visibility: visible;";
     contactModal.style="top:0px";
     disableScrolling();
@@ -70,18 +75,18 @@ function NewTab() {
 // ------------------------Hero Section slider----------------------
 // #################################################################
 
-const companyName=document.querySelector('.companyname');
-const heroBg=document.querySelector('.herobg');
-// Update images in this array
-// const arr=['herobg1.jpg','herobg2.jpg','herobg3.jpg','herobg4.jpg'];
-const arr=['herobg1.jpg','herobg1.jpg','herobg1.jpg','herobg1.jpg'];
-let i=0;
-window.setInterval(()=>{
-    if(i===arr.length)
-        i=0;
-    heroBg.style.backgroundImage=`linear-gradient(90deg, rgba(0,0,0,.85) 50%, rgba(255, 255, 255, 0.5) 100%),url("./imgs/${arr[i]}")`
-    i++;
-},4000);
+// const companyName=document.querySelector('.companyname');
+// const heroBg=document.querySelector('.herobg');
+// // Update images in this array
+// // const arr=['herobg1.jpg','herobg2.jpg','herobg3.jpg','herobg4.jpg'];
+// const arr=['herobg1.jpg','herobg1.jpg','herobg1.jpg','herobg1.jpg'];
+// let i=0;
+// window.setInterval(()=>{
+//     if(i===arr.length)
+//         i=0;
+//     heroBg.style.backgroundImage=`linear-gradient(90deg, rgba(0,0,0,.85) 50%, rgba(255, 255, 255, 0.5) 100%),url("./imgs/${arr[i]}")`
+//     i++;
+// },4000);
 
 // ------------------------Features------------------------
 // --------------------------------------------------------

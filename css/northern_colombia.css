@@ -44,17 +44,13 @@ h2.companyname{
 }
 
 .herobg{
-  /* background-image:linear-gradient(90deg, rgba(0,0,0,.85) 50%, rgba(255, 255, 255, 0.5) 100%),url('../imgs/herobg1.jpg') ; */
+  background-image:linear-gradient(90deg, rgba(0,0,0,.85) 50%, rgba(255, 255, 255, 0.5) 100%),url('../imgs/herobg1.jpg') ;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
 }
 
-.herobg:nth-child(0){
-  background-image:linear-gradient(90deg, rgba(0,0,0,.85) 50%, rgba(255, 255, 255, 0.5) 100%),url('../imgs/features/hole_in_the_wall.jpg') ;
-
-}
 
 .contactModalDiv{
   backdrop-filter: blur(3px);
