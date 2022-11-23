@@ -12,64 +12,64 @@ mobileHamburger.addEventListener('click',()=>{
 })
 
 mobileDropDownCross.addEventListener('click',()=>{
-    mobileDropDown.style="right:-20rem";
+    mobileDropDown.style="right:-40rem";
    
 })
 
 // #################################################################
 // ----------------Contact US Modal-----------------------------
 // #############################################################
-function disableScrolling(){
-    var x=window.scrollX;
-    var y=window.scrollY;
-    window.onscroll=function(){window.scrollTo(x, y);};
-}
+// function disableScrolling(){
+//     var x=window.scrollX;
+//     var y=window.scrollY;
+//     window.onscroll=function(){window.scrollTo(x, y);};
+// }
 
-function enableScrolling(){
-    window.onscroll=function(){};
-}
+// function enableScrolling(){
+//     window.onscroll=function(){};
+// }
 
-const contactUsBtn1=document.getElementsByClassName('contactUsBtn')[0];
-const contactUsBtn2=document.getElementsByClassName('contactUsBtn')[1];
-const contactModalDiv=document.getElementsByClassName('contactModalDiv')[0]
-const contactModalCross=document.querySelector(".contactModal img");
-const contactModal=document.querySelector('.contactModal');
+// const contactUsBtn1=document.getElementsByClassName('contactUsBtn')[0];
+// const contactUsBtn2=document.getElementsByClassName('contactUsBtn')[1];
+// const contactModalDiv=document.getElementsByClassName('contactModalDiv')[0]
+// const contactModalCross=document.querySelector(".contactModal img");
+// const contactModal=document.querySelector('.contactModal');
 
-// -----------------Click outside to exit modal----------------
+// // -----------------Click outside to exit modal----------------
 
-window.onclick = function(event) {
-    if (event.target == contactModalDiv) {
+// window.onclick = function(event) {
+//     if (event.target == contactModalDiv) {
  
-        contactModalDiv.style="opacity: 0;visibility: hidden;";
-        contactModal.style="top:-999px";
-        enableScrolling();
+//         contactModalDiv.style="opacity: 0;visibility: hidden;";
+//         contactModal.style="top:-999px";
+//         enableScrolling();
     
-     }
+//      }
  
- }
+//  }
 
-// ---------Opening modal-------------
-contactUsBtn1.addEventListener('click',()=>{
-    contactModalDiv.style="opacity: 1;visibility: visible;";
-    contactModal.style="top:0px";
-    disableScrolling();
-});
-contactUsBtn2.addEventListener('click',()=>{
-    contactModalDiv.style="opacity: 1;visibility: visible;";
-    contactModal.style="top:0px";
-    disableScrolling();
-});
+// // ---------Opening modal-------------
+// contactUsBtn1.addEventListener('click',()=>{
+//     contactModalDiv.style="opacity: 1;visibility: visible;";
+//     contactModal.style="top:0px";
+//     disableScrolling();
+// });
+// contactUsBtn2.addEventListener('click',()=>{
+//     contactModalDiv.style="opacity: 1;visibility: visible;";
+//     contactModal.style="top:0px";
+//     disableScrolling();
+// });
 
-// ------------Hiding the modal---------
-contactModalCross.addEventListener('click',()=>{
-    contactModalDiv.style="opacity: 0;visibility: hidden;";
-    contactModal.style="top:-999px";
-    enableScrolling();
-});
-function NewTab() { 
-    window.open( 
-      "https://drive.google.com/file/d/163rTEHAs_O5uPM1wCFn66G2JzUOcU-WP/view", "_blank");
-}
+// // ------------Hiding the modal---------
+// contactModalCross.addEventListener('click',()=>{
+//     contactModalDiv.style="opacity: 0;visibility: hidden;";
+//     contactModal.style="top:-999px";
+//     enableScrolling();
+// });
+// function NewTab() { 
+//     window.open( 
+//       "https://drive.google.com/uc?id=163rTEHAs_O5uPM1wCFn66G2JzUOcU-WP&export=download");
+// }
 
 // #################################################################
 // ------------------------Hero Section slider----------------------
